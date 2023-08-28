@@ -175,6 +175,8 @@ ul {
     float: left;
     position: relative;
     margin: 0;
+    margin-left: -35px;
+
   }
 }
 .site-navbar .site-navigation.border-bottom {
@@ -210,6 +212,9 @@ ul {
   font-weight: 700;
 }
 
+.icon-menu{
+  margin-right: -30px;
+} 
 .site-mobile-menu {
   width: 200px;
   position: fixed;
