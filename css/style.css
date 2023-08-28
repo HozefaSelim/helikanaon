@@ -1591,19 +1591,24 @@ ul {
     
   }
   .inner-screen {
+    text-align: center;
     width: 100%;
-    top: 3%;
-    left: 45%;
+    top: 2%;
+    left: 60%;
+  }
+  .inner-screen.logo{
+    width: 130px;
   }
   .btn-preview {
+    font-size: 12px;
     margin-top: 10px;
-    padding: 8px;
+    padding: 5px;
 
   }
   .arrow {
     width: 100px;
-    top: 80%;
-    right: 30%;
+    top: 86%;
+    right: 18%;
   }
 
  
