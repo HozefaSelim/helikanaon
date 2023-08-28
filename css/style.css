@@ -19,7 +19,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
- 
+  position: relative;
   overflow-x: hidden;
 }
 a {
@@ -614,7 +614,7 @@ ul {
   font-weight: 600;
   font-size: 25px;
   margin-top: 30px;
-  background-color: var(--dark-color);
+  background-color: var(--main-color-alt);
   color: #fff;
   padding: 15px 25px;
   border-radius: 15px;
