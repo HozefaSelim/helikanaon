@@ -1,0 +1,75 @@
+@media (max-width: 400px) {
+    .newsletter form .btn span {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .about-product .product-features li {
+        font-size: 14px;
+    }
+    .contact .section-title h2 {
+        margin-bottom: 2rem;
+    }
+    .contact .contact-info {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .navbar-light .navbar-toggler {
+        height: 38px;
+        width: 45px;
+        padding: 0;
+        background-color: #FFF;
+    }
+    .header .navbar-light .navbar-toggler:focus {
+        outline: none;
+    }
+    .header .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        height: 3px;
+        width: 24px;
+        position: relative;
+    }
+    .header .navbar-light .navbar-toggler-icon:before {
+        position: absolute;
+        content: '';
+        top: -7px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+    }
+    .header .navbar-light .navbar-toggler-icon:after {
+        position: absolute;
+        content: '';
+        top: 7px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+    }
+    .header .navbar .nav-item .nav-link {
+        padding: 15px 0;
+    }
+    .home .home-img {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-product .product-features {
+        margin-bottom: 30px;
+    }
+}
