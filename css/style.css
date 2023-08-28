@@ -1441,7 +1441,6 @@ ul {
 }
 
 .work .container {
-
   display: flex;
   align-items: center;
 }
@@ -1464,11 +1463,10 @@ ul {
 @media (max-width: 991px) {
   .work .container {
     flex-direction: column;
-    
   }
   .info {
     text-align: center;
-    width : 100%;
+    width: 100%;
   }
   .work .image img {
     left: 0;
@@ -1478,7 +1476,6 @@ ul {
     width: 300px;
     text-align: center;
     margin-left: -80px;
-   
   }
 }
 
@@ -1495,8 +1492,6 @@ ul {
 /* Start Mobile */
 
 .mobile {
-
-
 }
 .mobile-sec {
   display: flex;
@@ -1526,13 +1521,12 @@ ul {
 }
 .inner-screen {
   position: absolute;
- 
+  top: 3%;
   left: 10.2%;
   width: 50%;
   padding: 15px;
   text-align: center;
 }
-
 
 .inner-screen h1 {
   color: #24262b;
@@ -1552,7 +1546,7 @@ ul {
   color: #fff;
   font-size: 15px;
   margin-top: 30px;
-  padding: 10px;
+  padding: 18px 20px;
   border-radius: 10px;
   box-shadow: 0px 10px 40px rgba(0, 150, 136, 0.4);
 }
@@ -1563,7 +1557,7 @@ ul {
 .arrow {
   position: absolute;
   width: 130px;
-  top: 85%;
+  top: 80%;
   right: 75%;
   -webkit-animation: bounce 1s ease infinite;
   animation: bounce 1s ease infinite;
@@ -1583,35 +1577,31 @@ ul {
   }
 }
 @media (max-width: 991px) {
-  .mobile-sec{
+  .mobile-sec {
     flex-direction: column;
   }
   .mobile-sec .image {
     margin-right: 150px;
-    
   }
   .inner-screen {
     text-align: center;
     width: 100%;
     top: 2%;
-    left: 65%;
+    left: 75%;
   }
-  .inner-screen.logo{
-    width: 130px;
+  .inner-screen.logo {
+    width: 100px;
   }
   .btn-preview {
     font-size: 12px;
     margin-top: 10px;
     padding: 5px;
-
   }
   .arrow {
     width: 100px;
     top: 86%;
     right: 18%;
   }
-
- 
 }
 
 /* EndMobile */
