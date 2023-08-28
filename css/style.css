@@ -1471,11 +1471,15 @@ ul {
   .work .image img {
     left: 0;
   }
+  .work .text  h3{
+    margin-left: -20px;
+  }
   .work .text p {
     margin-bottom: 30px;
     width: 300px;
     text-align: center;
     margin-left: -80px;
+  
   }
 }
 
@@ -1587,7 +1591,7 @@ ul {
     text-align: center;
     width: 100%;
     top: 2%;
-    left: 75%;
+    left: 60%;
   }
   .inner-screen.logo {
     width: 100px;
