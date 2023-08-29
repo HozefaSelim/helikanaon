@@ -1471,7 +1471,7 @@ ul {
   .work .image img {
     left: 0;
   }
-  .work .text  h3{
+  .work .text h3 {
     margin-left: -20px;
   }
   .work .text p {
@@ -1479,7 +1479,6 @@ ul {
     width: 300px;
     text-align: center;
     margin-left: -80px;
-  
   }
 }
 
@@ -1495,8 +1494,6 @@ ul {
 
 /* Start Mobile */
 
-.mobile {
-}
 .mobile-sec {
   display: flex;
   justify-content: space-between;
@@ -1515,7 +1512,7 @@ ul {
   margin-bottom: 50px;
   margin-left: 30px;
 }
-.mobile-sec .txt  .top{
+.mobile-sec .txt .top {
   margin-left: 150px;
 }
 .mobile-sec .txt h2 {
@@ -1523,7 +1520,7 @@ ul {
   font-weight: bold;
   color: var(--second-color);
 }
-.mobile-sec .txt  img{
+.mobile-sec .txt img {
   width: 150px;
   height: 150px;
 }
@@ -1591,7 +1588,7 @@ ul {
   .mobile-sec {
     flex-direction: column;
   }
-  .mobile-sec .txt  .top{
+  .mobile-sec .txt .top {
     margin-left: 0px;
   }
   .mobile-sec .image {
@@ -1697,51 +1694,53 @@ ul {
 }
 /* End Stats */
 /* Start Discount */
-.discount {
+.Contact-us {
   min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-}
-.discount .image {
-  background-image: url(../imgs/discount-background1.jpg);
-  background-size: cover;
-  color: white;
-  flex-basis: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  animation: change-background 10s linear infinite;
-}
-.discount .image::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgb(23 135 224 / 97%);
-  z-index: -1;
+  padding-bottom: 10px;
 }
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contact-us .map {
+  height: 100%;
+  width: 70%;
+  color: white;
+}
+.Contact-us .map iframe {
+  height: 550px;
+  width: 100%;
+}
+
 @media (max-width: 991px) {
-  .discount .image {
+  .Contact-us .map {
     flex-basis: 100%;
   }
+  .contact {
+ flex-direction: column-reverse;
+  }
+  .Contact-us .map {
+    width: 100%;
+  }
 }
-.discount .form {
+.Contact-us .form {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-basis: 50%;
   padding-bottom: 50px;
+  width: 50%;
+  padding: 0;
 }
 @media (max-width: 991px) {
-  .discount .form {
+  .Contact-us .form {
     flex-basis: 100%;
+    width: 100%;
+    padding-bottom: 20px;
   }
 }
-.discount .form .input {
+.Contact-us .form .input {
   display: block;
   width: 100%;
   margin-bottom: 25px;
@@ -1751,14 +1750,14 @@ ul {
   background-color: #f9f9f9;
   caret-color: var(--main-color);
 }
-.discount .form textarea.input {
+.Contact-us .form textarea.input {
   resize: none;
   height: 200px;
 }
-.discount .form .input:focus {
+.Contact-us .form .input:focus {
   outline: none;
 }
-.discount .form [type="submit"] {
+.Contact-us .form [type="submit"] {
   display: block;
   width: 100%;
   padding: 15px;
@@ -1770,35 +1769,35 @@ ul {
   cursor: pointer;
   transition: var(--main-transition);
 }
-.discount .form [type="submit"]:hover {
+.Contact-us .form [type="submit"]:hover {
   background-color: var(--main-color-alt);
 }
-.discount .contact {
+.Contact-us .contact {
   text-align: center;
   padding: 0 20px;
 }
 @media (max-width: 991px) {
-  .discount .contact {
+  .Contact-us .contact {
     margin-top: 30px;
   }
-  .discount .form {
+  .Contact-us .form {
     margin-top: 30px;
   }
 }
-.discount .contact h2 {
+.Contact-us .contact h2 {
   font-size: 40px;
   letter-spacing: -2px;
 }
-.discount .contact p {
+.Contact-us .contact p {
   line-height: 1.6;
   font-size: 18px;
   max-width: 500px;
 }
-.discount .contact img {
+.Contact-us .contact img {
   width: 300px;
   max-width: 100%;
 }
-/* End Discount */
+/* End Contact-uS */
 /* Start Footer */
 .footer {
   background-color: #191919;
