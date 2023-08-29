@@ -1,3 +1,7 @@
+$(window).on("load",function(){
+  $("#perLoader").fadeOut(1000)
+})
+
 $(function () {
     var siteSticky = function () {
       $(".js-sticky-header").sticky({ topSpacing: 0 });
