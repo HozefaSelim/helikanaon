@@ -1693,7 +1693,148 @@ ul {
   font-weight: bold;
 }
 /* End Stats */
-/* Start Discount */
+/* Start contact */
+.section {
+  margin-top: 120px;
+}
+
+.section-heading {
+  margin-bottom: 70px;
+}
+
+.section-heading h2 {
+  color: var(--second-color);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 56px;
+}
+.contact {
+  background-image: url("../imgs/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0px 250px 0px;
+  position: relative;
+}
+
+.contact-content {
+  margin-top: -300px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-content #map {
+  border-radius: 10px;
+}
+
+.contact-content .item {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+  background-color: #fff;
+}
+
+.contact-content .phone {
+  margin-right: 15px;
+}
+
+.contact-content .email {
+  margin-left: 15px;
+}
+
+.contact-content .item i {
+  font-size: 30px;
+  color: var(--second-color);
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contact-content .item h6 {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-content .item h6 span {
+  font-size: 15px;
+  color: #aaaaaa;
+  font-weight: 400;
+}
+
+.contact-content #contact-form {
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+  background-color: #fff;
+}
+
+.contact-content #contact-form label {
+  font-size: 15px;
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}
+
+.contact-content #contact-form input {
+  width: 100%;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #cecece;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+.contact-content #contact-form textarea {
+  width: 100%;
+  height: 150px;
+  max-height: 180px;
+  border-radius: 22px;
+  background-color: #cecece;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 15px 15px;
+}
+
+.contact-content #contact-form button {
+  background-color: var(--main-color);
+  height: 44px;
+  border-radius: 22px;
+  padding: 0px 20px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.contact-content #contact-form button:hover {
+  background-color: var(--second-color);
+  color: #000;
+}
+@media (max-width: 991px) {
+  .contact-content .item {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .contact-content .item i {
+    padding-right: 20px;
+  }
+  .contact-content #contact-form button{
+   margin-left: 100px;
+  }
+}
+
+/* 
+
 .Contact-us {
   min-height: 100vh;
   width: 100%;
@@ -1725,7 +1866,7 @@ ul {
     width: 100%;
   }
 }
-.Contact-us .form {
+ .form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1740,7 +1881,7 @@ ul {
     padding-bottom: 20px;
   }
 }
-.Contact-us .form .input {
+.form .input {
   display: block;
   width: 100%;
   margin-bottom: 25px;
@@ -1750,14 +1891,14 @@ ul {
   background-color: #f9f9f9;
   caret-color: var(--main-color);
 }
-.Contact-us .form textarea.input {
+ .form textarea.input {
   resize: none;
   height: 200px;
 }
-.Contact-us .form .input:focus {
+ .form .input:focus {
   outline: none;
 }
-.Contact-us .form [type="submit"] {
+ .form [type="submit"] {
   display: block;
   width: 100%;
   padding: 15px;
@@ -1769,34 +1910,34 @@ ul {
   cursor: pointer;
   transition: var(--main-transition);
 }
-.Contact-us .form [type="submit"]:hover {
+ .form [type="submit"]:hover {
   background-color: var(--main-color-alt);
 }
-.Contact-us .contact {
+ .contact {
   text-align: center;
   padding: 0 20px;
 }
 @media (max-width: 991px) {
-  .Contact-us .contact {
+   .contact {
     margin-top: 30px;
   }
-  .Contact-us .form {
+   .form {
     margin-top: 30px;
   }
 }
-.Contact-us .contact h2 {
+ .contact h2 {
   font-size: 40px;
   letter-spacing: -2px;
 }
-.Contact-us .contact p {
+ .contact p {
   line-height: 1.6;
   font-size: 18px;
   max-width: 500px;
 }
-.Contact-us .contact img {
+ .contact img {
   width: 300px;
   max-width: 100%;
-}
+} */
 /* End Contact-uS */
 /* Start Footer */
 .footer {
