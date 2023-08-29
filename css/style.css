@@ -1588,8 +1588,18 @@ ul {
   .mobile-sec {
     flex-direction: column;
   }
+  .mobile-sec .txt {
+    width: 100%;
+    padding: 20px  30px;
+  }
   .mobile-sec .txt .top {
     margin-left: 0px;
+    margin: 10px auto;
+
+  }
+  .mobile-sec .txt .top h2 {
+  
+    font-size: 30px;
   }
   .mobile-sec .image {
     margin-right: 150px;
@@ -1693,6 +1703,7 @@ ul {
   font-weight: bold;
 }
 /* End Stats */
+
 /* Start contact */
 .section {
   margin-top: 120px;
@@ -1735,7 +1746,6 @@ ul {
   background-color: #fff;
   margin: 10px auto;
   margin-bottom: 20px;
-
 }
 
 .contact-content .item i {
@@ -1819,14 +1829,12 @@ ul {
     text-align: center;
     display: flex;
     justify-content: center;
- 
-   
   }
   .contact-content .item i {
     padding-right: 20px;
   }
-  .contact-content #contact-form button{
-  margin-left: calc(100% / 3)
+  .contact-content #contact-form button {
+    margin-left: calc(100% / 3);
   }
 }
 /* End Contact-uS */
