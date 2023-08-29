@@ -2036,3 +2036,53 @@ ul {
   padding-top: var(--main-padding-top);
 }
 /* End Games Pages style */
+#about {
+  margin-top: 120px;
+}
+
+.about-us {
+  background-image: url('../imgs/about-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0px 120px 0px;
+}
+
+.about-us .left-image {
+  margin-right: 45px;
+}
+
+.about-us .services .item {
+  margin-bottom: 30px;
+}
+
+.about-us .services .item .icon {
+  float: left;
+  margin-right: 25px;
+}
+
+.about-us .services .item .icon img {
+  max-width: 70px;
+}
+
+.about-us .services .item h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.about-us .services .item p {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .about-us {
+   padding-bottom: 300px;
+  }
+  .about-us .left-image {
+    width: 100%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+ 
+}
