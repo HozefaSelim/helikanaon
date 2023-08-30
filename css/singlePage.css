@@ -14,12 +14,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .single-box {
   background-color: var(--dark-color);
   border-radius: 10px;
-  box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 12%);
+  box-shadow: 1px 3px 25px 2px var(--main-color);
   padding: 45px;
   margin: 15px 0;
   width: 950px;
