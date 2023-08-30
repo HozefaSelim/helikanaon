@@ -26,7 +26,7 @@ body {
   background: var(--main-color);
   height: 100vh;
   width: 100%;
-  z-index: 1000;
+  z-index: 999999;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -146,6 +146,40 @@ ul {
   z-index: 9999;
 }
 /* End scroller */
+
+
+
+
+.site-logo{
+  width: 15rem;
+}
+.nav-link {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+  background-color: var(--main-color);
+}
+.navbar-toggler:active{
+  border: none;
+}
+.nav-link:hover {
+  background-color: var(--second-color);
+  color: #000;
+  font-size: 22px;
+}
+@media (max-width: 991.98px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
 
 /* Start Header */
 
@@ -680,7 +714,7 @@ ul {
 }
 .reverse {
   flex-direction: row-reverse;
-  background-color: #cecece;
+  background-color: #dfdfdf;
   color: white;
   padding-top: 20px;
 }
