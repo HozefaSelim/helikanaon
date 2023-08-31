@@ -491,17 +491,19 @@ ul {
 /* End Gallery */
 /* Start Features */
 .features {
-  position: relative;
+
   background-color: white;
 }
 .features .feature {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 .features .box {
   text-align: center;
   border: 1px solid #ccc;
-  width: calc(100% / 3);
+
   position: relative;
 }
 .features .box .img-holder {
@@ -577,6 +579,15 @@ ul {
 }
 .features .passion:hover .img-holder::before {
   background-color: rgb(3 169 244 / 60%);
+}
+@media (max-width:991px) {
+  .features{
+    margin-top: 150px;
+  }
+  .feature{
+    flex-direction: column;
+   
+  }
 }
 /* End Features */
 
