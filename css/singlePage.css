@@ -125,14 +125,16 @@
 }
 
 .single-box .description .social {
+ 
   list-style: none;
   display: flex;
   font-size: 25px;
 }
 
 .single-box .description .social a {
+
   margin-right: 25px;
-  color: var(--dark-color);
+  color: #fff;
 }
 
 .single-box .description .social a:hover {
