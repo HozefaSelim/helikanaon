@@ -927,7 +927,11 @@ ul {
   z-index: 1;
   transform: scale3d(-1.4, 0.4, 0.7);
 }
-
+@media (max-width: 991px) {
+  .swiper{
+    display: none;
+  }
+}
 
 /* Start Skills */
 .our-skills {
