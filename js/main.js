@@ -116,18 +116,7 @@ btn.on("click", function (e) {
 
 //
 
-// make animation dots in background of landing
 
-// 1. code for dots in the background
-// const numDots = 15; // Number of dots
-// for (let i = 0; i < numDots; i++) {
-//   const dot = document.createElement('div');
-//   dot.className = 'dot';
-//   dot.style.top = `${Math.random() * 100}vh`;
-//   dot.style.animationDuration = `${Math.random() * 10 + 5}s`; // Vary animation duration
-//   dot.style.animationDelay = `${Math.random() * 5}s`; // Vary animation delay
-//   document.querySelector('.dot-container').appendChild(dot);
-// }
 
 // 2. code for dots in the background
 const container = document.querySelector(".dot-container");
@@ -221,27 +210,7 @@ $(function () {
   });
 });
 
-// var swiper = new Swiper('.swiper-container', {
-//   effect: 'coverflow',
-//   grabCursor: true,
-//   centeredSlides: true,
-//   slidesPerView: 'auto',
-//   coverflow: {
-//     rotate: 20,
-//     stretch: 0,
-//     depth: 200,
-//     modifier: 1,
 
-//     slideShadows : true
-//   },
-//    loop: true,
-
-//   autoplay:{
-//     delay:1500,
-//     disableOnInteraction: false,
-//   },
-
-// });
 
 const swiper = new Swiper(".swiper-container", {
   effect: "coverflow",
@@ -250,9 +219,9 @@ const swiper = new Swiper(".swiper-container", {
   slidesPerView: "auto",
   loop : true,
   coverflow: {
-    rotate: 20,
+    rotate: 0,
     stretch: 0,
-    depth: 200,
+    depth: 100,
     modifier: 1,
 
     slideShadows: true,

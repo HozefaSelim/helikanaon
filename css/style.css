@@ -928,6 +928,7 @@ ul {
   transform: scale3d(-1.4, 0.4, 0.7);
 }
 
+
 /* Start Skills */
 .our-skills {
   padding-top: var(--main-padding-top);
@@ -1182,11 +1183,13 @@ ul {
 }
 .stats .box {
   background-color: white;
+  width: 10rem;
   padding: 30px 15px;
   text-align: center;
   position: relative;
   opacity: 0.8;
   transition: var(--main-transition);
+  margin-bottom: 12px;
 }
 .stats .box::before,
 .stats .box::after {
@@ -1199,10 +1202,10 @@ ul {
 }
 .stats .box::before {
   top: 0;
-  right: 0;
+  right: 0px;
 }
 .stats .box::after {
-  left: 0;
+  left: 0px;
   bottom: 0;
 }
 .stats .box:hover {
