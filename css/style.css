@@ -150,7 +150,7 @@ ul {
 /* Start Header */
 
 .site-logo{
-  width: 15rem;
+  width: 10rem;
 }
 
 .nav-link {
@@ -1618,7 +1618,7 @@ ul {
 }
 @media (max-width: 991px) {
   .content {
-    top: 60%;
+    top: 55%;
   }
   .content h1 {
     font-size: 60px;
