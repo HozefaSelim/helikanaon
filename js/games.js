@@ -161,3 +161,5 @@ $(function () {
     el.style.width = `${(scroll_Top / hight)* 100}% `;
   })
   
+
+  

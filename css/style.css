@@ -1546,8 +1546,8 @@ width: 100%;
 .footer .box .social .twitter:hover {
   background-color: #1da1f2;
 }
-.footer .box .social .youtube:hover {
-  background-color: #ff0000;
+.footer .box .social .linkedin:hover {
+  background-color: #0a66c2;
 }
 .footer .box .text {
   line-height: 2;
@@ -1823,3 +1823,18 @@ width: 100%;
   }
  
 }
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
