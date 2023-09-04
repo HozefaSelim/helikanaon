@@ -89,7 +89,7 @@ $(function () {
 // function to automatic write in type.js
 (function ($) {
   var type = new Typed("span.txt-rotate", {
-    strings: ["   we make hypercasual games "],
+    strings: ["  We make mobile apps and games "],
     typeSpeed: 50,
     backSpeed: 100,
     fadeOut: false,

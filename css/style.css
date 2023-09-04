@@ -410,7 +410,7 @@ ul {
 }
 .reverse {
   flex-direction: row-reverse;
-  background-color: #dfdfdf;
+  background-color: #f4f4f4;
   color: white;
   padding-top: 20px;
 }
@@ -1273,22 +1273,29 @@ ul {
   background-position: top  ;
   padding: 50px 0px 250px 0px;
   position: relative;
+
 }
 
 .contact-content {
   margin-top: -300px;
   position: relative;
   z-index: 1;
+  margin-bottom: 30px;
 }
 
 .contact-content #map {
   border-radius: 10px;
 }
-
+.contact-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 .contact-content .item {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 20px 10px;
+  padding: 15px 20px;
   background-color: #fff;
   margin: 10px auto;
   margin-bottom: 20px;
