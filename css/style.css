@@ -916,13 +916,11 @@ ul {
   padding-bottom: 150px;
   background-color: var(--dark-color);
 }
-
 .swiper-container {
   width: 100%;
   margin: 40px 0;
   padding: 45px 0;
 }
-
 .swiper-slide {
   opacity: 0.4;
   overflow: hidden;
@@ -930,11 +928,9 @@ ul {
   -webkit-box-reflect: below 1px
     linear-gradient(transparent, transparent, #0006);
 }
-
 .swiper-slide img {
   width: 100%;
 }
-
 .swiper-slide-active {
   opacity: 1;
   z-index: 1;
@@ -990,12 +986,12 @@ ul {
   transition: width 0.5s linear;
 }
 /* End Skills */
-/* Start Work Steps */
 
+
+/* Start Work Steps */
 .work {
   padding-top: var(--main-padding-top);
 }
-
 .work .container {
   display: flex;
   align-items: center;
@@ -1009,7 +1005,6 @@ ul {
 .work .info img {
   width: 50px;
 }
-
 .work .image img {
   position: relative;
   width: 600px;
@@ -1266,6 +1261,9 @@ ul {
   text-transform: capitalize;
   line-height: 56px;
 }
+
+
+
 .contact {
   background-image: url("../imgs/pexels-karolina-grabowska-4195325.jpg");
   background-repeat: no-repeat;
@@ -1274,14 +1272,12 @@ ul {
   padding: 50px 0px 250px 0px;
   position: relative;
 }
-
 .contact-content {
   margin-top: -300px;
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
 }
-
 .contact-content #map {
   border-radius: 10px;
 }
@@ -1307,7 +1303,6 @@ ul {
   margin-right: 10px;
   margin-top: 5px;
 }
-
 .contact-content .item h6 {
   font-size: 20px;
   font-weight: 600;
@@ -1320,7 +1315,6 @@ ul {
   color: #aaaaaa;
   font-weight: 400;
 }
-
 .contact-content #contact-form {
   margin-left: 30px;
   border-radius: 10px;
